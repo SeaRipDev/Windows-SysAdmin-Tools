@@ -31,7 +31,7 @@
     Runs only SFC scan
 
 .NOTES
-    Author: Created for system maintenance
+    Author: SeaRipDev
     Requires: Administrator privileges
     Version: 1.0
     Date: 2025-11-24

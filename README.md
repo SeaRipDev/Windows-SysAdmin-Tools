@@ -239,7 +239,7 @@ Register-ScheduledTask -TaskName "Monthly System Repair" -Action $action -Trigge
 
 ## Author
 
-Created for system maintenance and troubleshooting.
+SeaRipDev
 
 ## License
 

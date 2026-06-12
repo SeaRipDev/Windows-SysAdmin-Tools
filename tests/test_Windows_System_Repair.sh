@@ -12,7 +12,7 @@
 ####################################################################################################
 
 # Test configuration
-SCRIPT_PATH="/Users/cwripley/Desktop/Ripley Scripts/Windows-System-Repair.ps1"
+SCRIPT_PATH="${SCRIPT_PATH:-./Windows-System-Repair.ps1}"   # override via env var or edit to your path
 TEST_RESULTS=()
 TESTS_PASSED=0
 TESTS_FAILED=0

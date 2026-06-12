@@ -16,9 +16,9 @@ Usage:
     4. Review ricoh_results.csv when complete.
 
 CSV format (printer_ips.csv):
-    192.168.1.10
-    192.168.1.11
-    192.168.1.12
+    192.0.2.10
+    192.0.2.11
+    192.0.2.12
 """
 
 import requests
@@ -64,8 +64,8 @@ SETTINGS_PAYLOAD = {
     "[FIELD_NAME_2]": "[NEW_VALUE_2]",
     # Add as many fields as the form requires.
     # Example:
-    #   "dns_primary":   "10.0.0.1",
-    #   "dns_secondary": "10.0.0.2",
+    #   "dns_primary":   "192.0.2.53",
+    #   "dns_secondary": "192.0.2.54",
     #   "apply":         "Apply",       # most Ricoh forms need a submit button field
 }
 
